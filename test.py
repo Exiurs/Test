@@ -1,6 +1,4 @@
-with open("a.in","r") as f:
-    content=f.read()
-    for c in content:
-        print(c)
-
-f.close()
+fin = open('a.in') 
+for line in fin: 
+    word = line.strip()
+    print(word)
